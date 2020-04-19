@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+}
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+  width: 100%;
+}
+div[role="group"][tabindex] {
+  height: 100%;
+}
+h1,h2,h3,h4,h5 {
+  font-weight: 400 !important;
+  letter-spacing: -.5px;
+}
