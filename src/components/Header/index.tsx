@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ pathname }) => {
   }, [pathname])
   return (
     <MutatedBox width={form === "fat" ? "100%" : "12rem"} background="green" pad="small" fill>
-      <Heading color="black" alignSelf="center">
+      <Heading size="small" color="black" alignSelf="center">
         Mugga
       </Heading>
     </MutatedBox>

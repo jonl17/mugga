@@ -21,7 +21,7 @@ export const ModifiedBox = styled(Box)`
     position: absolute;
     opacity: 0;
     animation: ${fadeIn} .5s ease .1s forwards;
-    max-height: 80%;
+    max-height: 75%;
     width: 100%;
     z-index: 8;
     box-sizing: border-box;

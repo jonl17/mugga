@@ -8,6 +8,7 @@ exports.createPages = async ({ graphql, actions }) => {
   {
     allMarkdownRemark {
       nodes {
+        id
         frontmatter {
           title
         }
@@ -18,7 +19,11 @@ exports.createPages = async ({ graphql, actions }) => {
   result.data.allMarkdownRemark.nodes.forEach(node => {
     createPage({
       path: slugify(`${node.frontmatter.title}`, { lower: true }),
-      component: landshlutiTemplate
+      component: landshlutiTemplate,
+      context: {
+        title: node.frontmatter.title,
+        id: node.id
+      }
     })
   })
 }
