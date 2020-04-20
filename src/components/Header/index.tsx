@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Heading } from "grommet"
 import styled from "styled-components"
+import Filter from "../Filter"
 
 interface HeaderProps {
   pathname: string
@@ -37,6 +38,10 @@ const Header: React.FC<HeaderProps> = ({ pathname }) => {
       <Heading size="small" color="black" alignSelf="center">
         Mugga
       </Heading>
+      {form === "thin" ?
+        <Filter></Filter>
+        : null
+      }
     </MutatedBox>
   )
 }

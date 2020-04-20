@@ -5,7 +5,9 @@ import { Link } from "gatsby"
 
 interface TemplateProps {
   pageContext: {
-    title: string;
+    title: "reykjanes" | "hofudborgarsvaedid" |
+    "sudurland" | "vesturland" | "vestfirdir" |
+    "nordurland" | "austurland";
     id: string;
   }
 }
