@@ -15,6 +15,15 @@ module.exports = {
         path: `${__dirname}/static/assets`
       },
     },
+    {
+      resolve:
+        `gatsby-source-filesystem`,
+      options: {
+        name: `landshlutar`,
+        path: `${__dirname}/static/landshlutar`
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-layout`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
