@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+
+media_folder: "static/assets"
+public_folder: "assets"
+
+collections:
+  # landshlutar
+  - name: "landshlutar"
+    label: "Landshlutar"
+    folder: "static/landshlutar"
+    create: true
+    editor:
+      preview: false
+    fields: 
+      - { name: "title", label: "Nafn", widget: "string" }
