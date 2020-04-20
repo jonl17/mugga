@@ -9,7 +9,8 @@ export const myTheme = {
       green: "#92A68A",
       blue: "#23828C",
       orange: "#FFA67A",
-      pink: "#F29494"
+      pink: "#F29494",
+      black: "#333333"
     },
   },
 }

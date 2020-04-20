@@ -1,8 +1,9 @@
 import React from "react"
+import Kort from "../components/Kort"
 
 const Index = () => {
   return (
-    <p>gummi berg</p>
+    <Kort></Kort>
   )
 }
 

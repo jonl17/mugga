@@ -11,4 +11,9 @@ div[role="group"][tabindex] {
 h1,h2,h3,h4,h5 {
   font-weight: 400 !important;
   letter-spacing: -.5px;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
