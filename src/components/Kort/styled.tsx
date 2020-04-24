@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components"
 import { Box } from "grommet"
+import colors from "../../layouts/colors"
 
 const fadeIn = keyframes`
   from {
@@ -37,7 +38,7 @@ export const ModifiedBox = styled(Box)`
       stroke: none;
     }
   .landshluti:hover {
-    fill: #23828C;
+    fill: ${colors.blue};
     z-index: 8;
     cursor: pointer;
   }

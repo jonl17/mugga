@@ -1,3 +1,4 @@
+import colors from "./colors"
 // my grommet theme config
 export const myTheme = {
   global: {
@@ -5,12 +6,7 @@ export const myTheme = {
       family: "Helvetica",
     },
     colors: {
-      white: "#F2F0E9",
-      green: "#92A68A",
-      blue: "#23828C",
-      orange: "#FFA67A",
-      pink: "#F29494",
-      black: "#333333"
+      ...colors
     },
   },
 }
