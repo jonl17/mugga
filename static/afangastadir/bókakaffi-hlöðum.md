@@ -6,7 +6,8 @@ tag:
 heimilisfang: Helgafelli 2, 700 Egilsstöðum
 simi: +354 471 2255
 opnunartimi: |-
-  Mánudaga – föstudaga 09.00 – 18.00 
+  Mánudaga – föstudaga
+  09.00 – 18.00 
   Laugardaga 14.00 – 18.00 
   Lokað á sunnudögum
 vefsida:
