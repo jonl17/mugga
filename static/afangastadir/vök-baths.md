@@ -16,7 +16,7 @@ opnunartimi: |-
 vefsida:
   vefsida-url: https://vok-baths.is/
   vefsida-nafn: vok-baths.is
-mynd: assets/vok.jpg
+mynd: /assets/vok.jpg
 google-maps-embed: <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1667.0222771894985!2d-14.447899283879591!3d65.30302582548897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48cc0569a1a05311%3A0xf8cea54d5e6c23ca!2sV%C3%B6k%20Baths!5e0!3m2!1sen!2sis!4v1587824193810!5m2!1sen!2sis"
   width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""

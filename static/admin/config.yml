@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "static/assets"
-public_folder: "assets"
+public_folder: "/assets"
 
 collections:
   # landshlutar
@@ -19,6 +19,8 @@ collections:
     label: "Áfangastaðir"
     folder: "static/afangastadir"
     create: true
+    media_folder: ""
+    public_folder: ""
     editor:
       preview: false
     fields: 

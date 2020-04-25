@@ -1,11 +1,4 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
   plugins: [
     {
       resolve:
@@ -23,6 +16,16 @@ module.exports = {
         path: `${__dirname}/static/landshlutar`
       },
     },
+    {
+      resolve:
+        `gatsby-source-filesystem`,
+      options: {
+        name: `afangastadir`,
+        path: `${__dirname}/static/afangastadir`
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-layout`,
     `gatsby-plugin-typescript`,

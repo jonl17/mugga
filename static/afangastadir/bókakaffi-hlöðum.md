@@ -13,7 +13,7 @@ opnunartimi: |-
 vefsida:
   vefsida-url: http://bokakaffi.is/
   vefsida-nafn: bokakaffi.is
-mynd: assets/08-1.png
+mynd: /assets/08-1.png
 ---
 ### Bókakaffi Hlöðum er notalegt kaffihús og bókabúð við Lagarfljótið í Fellabæ. 
 
