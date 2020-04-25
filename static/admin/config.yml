@@ -14,3 +14,36 @@ collections:
       preview: false
     fields: 
       - { name: "title", label: "Nafn", widget: "string" }
+  # áfangastaðir
+  - name: "afangastadir"
+    label: "Áfangastaðir"
+    folder: "static/afangastadir"
+    create: true
+    editor:
+      preview: false
+    fields: 
+      - { name: "title", label: "Titill", widget: "string" }
+      - name: "landshluti"
+        label: "Landshluti"
+        widget: "select"
+        options: ["austurland", "hofudborgarsvaedid", "nordurland", "reykjanes", "sudurland", "vestfirdir", "vesturland"]
+      - name: "tag"
+        label: "Tag"
+        widget: "select"
+        multiple: true
+        options: ["veitingar", "sofn", "upplifun"]
+      - { name: "body", label: "Texti", widget: "markdown" }
+      - { name: "heimilisfang", label: "Heimilisfang", widget: "string" }
+      - { name: "simi", label: "Sími", widget: "string", required: false }
+      - { name: "opnunartimi", label: "Opnunartími", widget: "text", required: false }
+      - name: "vefsida"
+        label: "Vefsíða"
+        widget: "object"
+        required: false
+        fields:
+          - { name: "vefsida-url", label: "URL", widget: "string" }
+          - { name: "vefsida-nafn", label: "Nafn", widget: "string", hint: "Fallegri útgáfan af URLinu, t.d. visir.is" }
+      - { name: "mynd", label: "Mynd", widget: "image" }
+      - { name: "google-maps-embed", label: "Google Maps Embed", widget: "string", required: false }
+
+        
