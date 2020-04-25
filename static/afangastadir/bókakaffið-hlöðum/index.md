@@ -1,5 +1,5 @@
 ---
-title: Bókakaffið Hlöðum
+title: Bókakaffi Hlöðum
 landshluti: austurland
 tag:
   - veitingar
