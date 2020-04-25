@@ -15,7 +15,7 @@ vefsida:
   vefsida-nafn: bokakaffi.is
 mynd: 08-1.png
 ---
-### Bókakaffi Hlöðum er notalegt kaffihús og bókabúð við Lagarfljótið í Fellabæ. 
+### Bókakaffi Hlöðum er notalegt kaffihús og bókabúð við Lagarfljótið í Fellabæ.
 
 Þar er hægt að gleyma stað og stund umkringdur gömlum bókum og tímaritum sem eru til sölu. 
 
