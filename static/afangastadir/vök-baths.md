@@ -26,6 +26,7 @@ google-maps-embed: <iframe
 
 Þar geta gestir slakað á í einstöku umhverfi þar sem sjálfbærni og virðing fyrir umhverfinu hafa verið höfð að leiðarljósi.\
 \
-Notkun staðbundinna hráefna er Vök Baths hugleikin, jafnt í hönnun lauganna og á matseðli veitingastaðarins.\
+Notkun staðbundinna hráefna er Vök Baths hugleikin, jafnt í hönnun lauganna og á matseðli veitingastaðarins.
+
 \
 Eftir að hafa baðað sig í laugum Urriðavatns umvafinn tréverki úr Austfirsku lerki er hægt að kæla sig niður með lífrænt ræktuðum jurtadrykk.
