@@ -6,7 +6,7 @@ const index = () => {
   console.log(googleMapsUrl)
   return (
     <div>
-      404!
+      404 tart!
     </div>
   )
 }
