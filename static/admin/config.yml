@@ -18,8 +18,8 @@ collections:
   - name: "afangastadir"
     label: "Áfangastaðir"
     folder: "static/afangastadir"
-    path: "{{title}}/index"
     create: true
+    path: "{{title}}/index"
     media_folder: ""
     public_folder: ""
     editor:
