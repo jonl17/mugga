@@ -54,6 +54,13 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          mynd {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
