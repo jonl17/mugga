@@ -18,7 +18,7 @@ collections:
   - name: "afangastadir"
     label: "Áfangastaðir"
     folder: "static/afangastadir"
-    path: "{{title}}/index"
+    path: "{{filename}}/index"
     create: true
     media_folder: ""
     public_folder: ""
