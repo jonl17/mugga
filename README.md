@@ -1,8 +1,8 @@
 todo...
 
 - [ ] spjöld
-  - [ ] texti overflow fix
-  - [ ] background color white
+  - [x] texti overflow fix
+  - [x] background color white
   - [ ] tags verbose
   - [x] Links to...
 - [ ] undirsíða f. áfangastað

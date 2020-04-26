@@ -5,7 +5,7 @@ import { Wrap } from "./styled"
 
 const Subtitle: React.FC<SubtitleProps> = ({ subtitle, collapsed }) => {
   return (
-    <Wrap height={collapsed ? "0px" : "100px"}>
+    <Wrap paddingTop={collapsed ? "0" : "2.5rem"} height={collapsed ? "0px" : "100px"}>
       <p>{subtitle}</p>
     </Wrap>
   )
