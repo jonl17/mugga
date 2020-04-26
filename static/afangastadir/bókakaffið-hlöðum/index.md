@@ -1,5 +1,6 @@
 ---
 title: Bókakaffi Hlöðum
+subtitle: Bókakaffi Hlöðum er notalegt kaffihús og bókabúð við Lagarfljótið í Fellabæ.
 landshluti: austurland
 tag:
   - veitingar
