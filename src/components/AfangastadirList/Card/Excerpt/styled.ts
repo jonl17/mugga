@@ -16,7 +16,7 @@ export const Wrap = styled(Box)`
   ${WrapDefaults};
   transition: background .2s;
   box-sizing: border-box;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
   background: ${colors.rgbaBlue};
 `
 export const HoverDetect = styled.div`

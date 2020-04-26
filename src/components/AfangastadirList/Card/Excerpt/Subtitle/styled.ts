@@ -11,7 +11,7 @@ export const Wrap = styled.div`
   overflow: hidden;
   height: ${(props: WrapProps) => props.height};
   position: relative;
-  margin: -0.5rem -1rem;
+  margin: -1rem;
   padding-top: ${(props: WrapProps) => props.paddingTop};
   background: ${colors.white};
   p {
