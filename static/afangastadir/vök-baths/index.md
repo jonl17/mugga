@@ -1,5 +1,7 @@
 ---
 title: Vök Baths
+subtitle: Vök Baths eru heitar náttúrulaugar sem eru staðsettar á bökkum
+  Urriðavatns við Egilsstaði.
 landshluti: austurland
 tag:
   - upplifun
