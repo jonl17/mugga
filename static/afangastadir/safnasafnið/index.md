@@ -1,5 +1,8 @@
 ---
 title: Safnasafnið
+subtitle: Safnasafnið hefur þá sérstöðu meðal listasafna á Íslandi að safna og
+  sýna jöfnum höndum list eftir leika sem lærða, þó að meginstofni verkum
+  sjálfmenntaðra listamanna.
 landshluti: nordurland
 tag:
   - sofn
