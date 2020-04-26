@@ -1,5 +1,8 @@
 ---
 title: "Davíðshús "
+subtitle: Erfingjar Davíðs Stefánssonar skálds frá Fagraskógi ánöfnuðu
+  Akureyrarbæ bókasafni og innanstokksmunum hússins að Bjarkarstíg 6, en skáldið
+  byggði og bjó í því húsi til dauðadags 1964.
 landshluti: nordurland
 tag:
   - sofn
