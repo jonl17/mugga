@@ -1,7 +1,7 @@
 import React from 'react'
 import { AfangastadirListProps } from "./types"
 
-import Card from "./card"
+import Card from "./Card"
 import { Grid } from "./styled"
 
 const AfangastadirList: React.FC<AfangastadirListProps> = ({ afangastadir }) => {

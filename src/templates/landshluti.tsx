@@ -54,6 +54,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          subtitle
           tag
           landshluti
           mynd {

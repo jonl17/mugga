@@ -5,6 +5,6 @@ const colors = {
   orange: "#FFA67A",
   pink: "#F29494",
   black: "#333333",
-  rgbaBlue: "rgba(187,198,196,0.4)"
+  rgbaBlue: "rgba(187,198,196,1)"
 }
 export default colors

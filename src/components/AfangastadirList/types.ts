@@ -6,6 +6,7 @@ export interface AfangastadirListProps {
 export interface Afangastadur {
   frontmatter: {
     title: string;
+    subtitle: string;
     tag: string[];
     landshluti: string;
     mynd: {
@@ -14,4 +15,15 @@ export interface Afangastadur {
       }
     }
   }
+}
+export interface ExcerptProps {
+  excerpt: {
+    title: string;
+    subtitle: string;
+    tag: string[];
+  }
+}
+export interface SubtitleProps {
+  subtitle: string;
+  collapsed: boolean;
 }
