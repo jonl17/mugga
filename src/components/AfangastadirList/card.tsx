@@ -1,14 +1,15 @@
 import React from 'react'
 import { Afangastadur } from "./types"
 import Img from "gatsby-image"
+import { CardBox } from "./styled"
 
-const Spjald: React.FC<Afangastadur> = ({ frontmatter: { title, mynd } }) => {
+const Card: React.FC<Afangastadur> = ({ frontmatter: { title, mynd } }) => {
   return (
-    <div>
+    <CardBox>
       <Img fluid={mynd.childImageSharp.fluid}></Img>
       <h2>{title}</h2>
-    </div>
+    </CardBox>
   )
 }
 
-export default Spjald
+export default Card

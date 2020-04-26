@@ -26,6 +26,7 @@ collections:
       preview: false
     fields: 
       - { name: "title", label: "Titill", widget: "string" }
+      - { name: "subtitle", label: "Undirtitill", widget: "string" }
       - name: "landshluti"
         label: "Landshluti"
         widget: "select"

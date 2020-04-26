@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from "styled-components"
-import colors from "../../layouts/colors"
+import colors from "~/layouts/colors"
 
 type TagProps = {
   tag: string

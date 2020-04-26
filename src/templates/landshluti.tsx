@@ -3,7 +3,7 @@ import { Header, Heading, Box, Text } from "grommet"
 import styled from "styled-components"
 import { Link, graphql } from "gatsby"
 import { LandshlutiProps } from "./types"
-import AfangastadirList from "../components/AfangastadirList"
+import AfangastadirList from "~/components/AfangastadirList"
 
 const ModifiedBox = styled(Box)`
   padding-left: 5rem;
@@ -54,6 +54,8 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          tag
+          landshluti
           mynd {
             childImageSharp {
               fluid {

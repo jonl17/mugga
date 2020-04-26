@@ -6,6 +6,8 @@ export interface AfangastadirListProps {
 export interface Afangastadur {
   frontmatter: {
     title: string;
+    tag: string[];
+    landshluti: string;
     mynd: {
       childImageSharp: {
         fluid: FluidObject

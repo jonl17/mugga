@@ -1,15 +1,7 @@
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 import { Box } from "grommet"
-import colors from "../../layouts/colors"
-
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`
+import colors from "~/layouts/colors"
+import { fadeIn } from "~/shared/animations"
 
 export const ModifiedBox = styled(Box)`
   overflow: hidden;
@@ -19,9 +11,8 @@ export const ModifiedBox = styled(Box)`
   top: 0;
   left: 0;
   svg {
+    ${fadeIn};
     position: absolute;
-    opacity: 0;
-    animation: ${fadeIn} .5s ease .1s forwards;
     max-height: 75%;
     width: 100%;
     z-index: 8;

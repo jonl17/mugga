@@ -1,3 +1,7 @@
+const aliases = {
+  "~": "src"
+}
+
 module.exports = {
   plugins: [
     {
@@ -30,6 +34,13 @@ module.exports = {
     `gatsby-plugin-layout`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: aliases,
+        extensions: [`ts`, `tsx`]
+      }
+    }
   ],
 }

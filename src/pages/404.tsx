@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { googleMapsUrl } from "../constants"
+import { googleMapsUrl } from "../shared/constants"
 
 const index = () => {
   console.log(googleMapsUrl)
