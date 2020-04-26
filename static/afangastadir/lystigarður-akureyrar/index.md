@@ -1,5 +1,7 @@
 ---
 title: Lystigarður Akureyrar
+subtitle: Lystigarðurinn er á suðurbrekkunni sunnan Menntaskólans og er hann
+  rekinn af Akureyrarbæ sem grasagarður og skrúðgarður.
 landshluti: nordurland
 tag:
   - upplifun
