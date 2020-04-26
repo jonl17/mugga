@@ -1,5 +1,6 @@
 ---
 title: Skriðuklaustur
+subtitle: Skriðuklaustur er sögustaður með rústum miðaldaklausturs frá 16. öld.
 landshluti: austurland
 tag:
   - sofn
