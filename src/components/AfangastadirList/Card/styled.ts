@@ -14,6 +14,18 @@ export const CardBox = styled(Link)`
 `
 export const Image = styled(Img)`
   position: absolute !important;
-  height: 100%;
+  height: 85%;
   width: 100%;
+`
+
+export const BgWrap = styled.div`
+  position: absolute;
+  top: 0;
+  left: -50px;
+  height: 100%;
+  width: 120%;
+  svg {
+    height: 100%;
+    width: 100%;
+  }
 `

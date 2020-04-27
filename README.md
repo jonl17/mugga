@@ -6,4 +6,7 @@ todo...
   - [x] tags verbose
   - [x] Links to...
 - [ ] undirsíða f. áfangastað
-- [ ] Tag filter
+
+- [ ] optimize tag filter
+- [x] Tag filter
+  - [x] de-trigger Allt if something is unchosen

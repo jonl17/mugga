@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { FilterContext } from "~/context/Filter"
 import { Nav } from "grommet"
 import styled from "styled-components"
 import Tag from "./tag"
@@ -10,12 +11,12 @@ const ModifiedNav = styled(Nav)`
 `
 
 const Filter = () => {
-  const tags = ["Veitingar", "Söfn", "Upplifun"]
+  const { tags, check } = useContext(FilterContext)
   return (
     <ModifiedNav pad="large" direction="column">
       {tags.map((tag, index) => (
         <React.Fragment key={index}>
-          <Tag tag={tag} key={index} />
+          <Tag onClick={check} tag={tag} key={index} />
         </React.Fragment>
       ))}
     </ModifiedNav>

@@ -1,12 +1,13 @@
 import React from 'react'
-import { Afangastadur } from "../types"
+import { CardProps } from "../types"
 import slugify from "slugify"
 
 import { CardBox, Image } from "./styled"
 import Excerpt from "./Excerpt"
 
-const Card: React.FC<Afangastadur> = ({ frontmatter }) => {
+const Card: React.FC<CardProps> = ({ afangastadur }) => {
 
+  const { frontmatter } = afangastadur
   const excerpt = {
     title: frontmatter.title,
     subtitle: frontmatter.subtitle,

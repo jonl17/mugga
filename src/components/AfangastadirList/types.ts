@@ -16,6 +16,9 @@ export interface Afangastadur {
     }
   }
 }
+export interface CardProps {
+  afangastadur: Afangastadur;
+}
 export interface ExcerptProps {
   excerpt: {
     title: string;
