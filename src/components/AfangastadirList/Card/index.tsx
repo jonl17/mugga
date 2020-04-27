@@ -21,6 +21,7 @@ const Card: React.FC<CardProps> = ({ afangastadur }) => {
     return url
   }
 
+
   return (
     <CardBox to={generatePagePath(frontmatter.title, frontmatter.landshluti)}>
       <Image fluid={frontmatter.mynd.childImageSharp.fluid}></Image>

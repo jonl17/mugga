@@ -6,6 +6,7 @@ import { filterStadirByTags } from "~/shared/methods"
 import Card from "./Card"
 import { Grid } from "./styled"
 
+
 const AfangastadirList: React.FC<AfangastadirListProps> = ({ afangastadir: allAfangastadir }) => {
 
   const { tags: contextTags } = useContext(FilterContext)
@@ -16,12 +17,15 @@ const AfangastadirList: React.FC<AfangastadirListProps> = ({ afangastadir: allAf
     setStadir(filtered)
   }, [contextTags])
 
+
   return (
 
     <Grid>
+
       {stadir.map((stadur, index) => (
         <Card key={index} afangastadur={stadur}></Card>
       ))}
+
     </Grid>
   )
 }

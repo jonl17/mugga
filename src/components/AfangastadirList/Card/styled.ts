@@ -2,8 +2,12 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 import colors from "~/layouts/colors"
+import { fadeIn } from "~/shared/animations"
 
 export const CardBox = styled(Link)`
+  ${fadeIn};
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-rows: 3fr 1fr;
   position: relative;

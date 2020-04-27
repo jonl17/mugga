@@ -5,6 +5,7 @@ todo...
   - [x] background color white
   - [x] tags verbose
   - [x] Links to...
+  - [ ] animate on mount & un mount
 - [ ] undirsíða f. áfangastað
 
 - [ ] optimize tag filter
